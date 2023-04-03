@@ -1,0 +1,15 @@
+; Comandos para añadir o restar
+
+-INB : Incrementa B en 1
+-INC : Incrementa C en 1
+-DEB : Decrementa B en 1
+-DEC : Decrementa C en 1
+
+; accumulator o A,es una variable pero si puede guardar valores,en lugar de usar Incrementos de 1 usa incrementos de 10,100 y 1000
+
+-TACI : Incrementa A en 10
+-TACD : Decrementa A en 10
+-HACI : Incrementa A en 100
+-HACD : Decrementa A en 100
+-MACI : Incrementa A en 1000
+-MACD : Decrementa A en 1000

@@ -1,0 +1,4 @@
+; Imprimir valores
+
+-PRINT imprime los valores de todos las variables
+-CUSTOM imprime un mensaje personaliado

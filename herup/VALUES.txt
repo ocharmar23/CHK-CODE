@@ -1,0 +1,11 @@
+; mover valores o algo asi
+NOTA: como solo manejamos dos variables
+solo pueden ser esas dos de origen y destino
+-: MVBC - Cambiar el valor de B por el valor
+          actul de C
+-: MVCB - Cambiar el valor de C por el valor 
+          actual de B
+-MVAB - Cambia el valor de B por el valor
+        actual de A
+-MVAC - Cambia el valor de B por el valor
+        actual de A
