@@ -1,19 +1,15 @@
-# StopIteration
 
-#idk
 
-# regB = 1
-# regC = 0
-
-# def INB():
-#   regB = regB + 1
-
+# Compile function:: Read the file and does soemthing based
+# on the text in the file default.txt
 
 def compile():
-  with open('textfiles/default.txt', 'r') as archivo:
-    regB = 0
-    regC = 0
-    acumul = 0
+  arch_name_in = input("Select the file to compile:\n")
+  with open(arch_name_in, 'r') as archivo:
+    regB = 0 # B
+    regC = 0 # C
+    acumul = 0 # A
+    #Check line for line in default.txt
     for linea in archivo:
       # Increment,decrement and move B and C
       if 'INB' in linea:
